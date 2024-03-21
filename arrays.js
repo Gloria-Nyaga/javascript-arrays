@@ -51,9 +51,12 @@ else {console.log("the search was not found")}
 //Question 6
 //Write a JS script to sort the following string:let word = "renniw"
 
-let word = ["renniw"];
-word.sort();
-console.log(word);
+let word = "renniw";
+let newWord=word.split("");
+   word.sort();
+     word.join("");
+;
+console.log(newWord);
 
 //Question 7
 //Using an array of fruits with length 10 , insert 'Tomato' at the 5th index
